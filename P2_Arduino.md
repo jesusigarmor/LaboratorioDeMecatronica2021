@@ -31,6 +31,7 @@ void loop (){
 }
 ~~~
 - Simulación 
+
 [Experimento 1]( https://www.tinkercad.com/things/h9Bk7t086mj )
 
 ## Experimento 2
@@ -73,6 +74,7 @@ void loop(){
 }
 ~~~
 - Simulación 
+
 [Experimento 2](https://www.tinkercad.com/things/jN2yGjUiO2b)
 
 ## Experimento 3
@@ -116,4 +118,5 @@ void loop()
 }
 ~~~
 - Simulación 
+
 [Experimento 3](https://www.tinkercad.com/things/aVhPzS2edHc)
