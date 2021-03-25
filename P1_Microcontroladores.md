@@ -2,7 +2,7 @@
 ## Experimento 1
 
 - Código:
-
+~~~
 int estadoP=0;
 int estadoA=0;
 int estado=0;
@@ -57,15 +57,15 @@ void loop()
   }
   
 }
-
+~~~
 - Simulación:
 
-[Simulación 1]( https://www.tinkercad.com/things/ahbj8L2C083 )
+[Experimento 1]( https://www.tinkercad.com/things/ahbj8L2C083 )
 
 ## Experimento 2
 
 - Código:
-
+~~~
 int ledRojo1 = 13;
 int ledAmarillo1 = 12;
 int ledVerde1 = 11;
@@ -118,7 +118,7 @@ void loop()
   digitalWrite(ledVerde2, LOW);
   delay(1000);
 }
-
+~~~
 - Simulación:
 
-[Simulación 2]( https://www.tinkercad.com/things/cq55BjfzMbK )
+[Experimento 2]( https://www.tinkercad.com/things/cq55BjfzMbK )
