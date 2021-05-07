@@ -1,4 +1,7 @@
- 
+# Práctica 7
+
+Código Base
+
 ~~~
 #!/usr/bin/env python3
 
@@ -133,8 +136,10 @@ if __name__ == '__main__':
 		position_topic = "/turtle1/pose"
 		pose_subscriber = rospy.Subscriber(position_topic, Pose, poseCallback)
 
+~~~
 
-		
+ - La siguiente parte contiene la sección del código para realizar el cuadrado:
+~~~
     #Cuadrado
     orientate(10.0,1.0)
 		time.sleep(0.5)
@@ -155,7 +160,10 @@ if __name__ == '__main__':
 		time.sleep(0.5)
 		go_to_goal(1.00,1.0)
 		time.sleep(0.5)
-    
+~~~
+
+ - La siguiente parte contiene la sección del código para realizar el círculo:
+~~~
     #Círculo
 		radio = 4.5
 		iteraciones = 360
@@ -179,5 +187,4 @@ if __name__ == '__main__':
 
 	except rospy.ROSInterruptException:        
 		pass
-
 ~~~
